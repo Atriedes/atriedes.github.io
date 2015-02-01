@@ -1,0 +1,43 @@
+@media (max-width: 640px) {
+    
+    .nav, .nav-tabs{
+        width: 120px;
+    }
+
+    .tab-content{
+        padding-left: 140px;
+    }
+    
+}
+@media (max-width: 360px){
+    .col-md-6, .col-md-4{
+        float: none;
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .nav-tabs{
+        width: 40px;
+    }
+    .tab-content{
+        padding-left: 60px;
+    }
+
+    .nav-tabs .menu{
+        display: none;
+    }
+}
+
+@media (min-width: 480px) {
+    .col-md-6{
+        float: left;
+        width: 50%;
+    }
+    .col-md-4{
+        float: left;
+        width: 33.33%;
+    }
+    .service{
+        font-size: 1em;
+    }
+}
